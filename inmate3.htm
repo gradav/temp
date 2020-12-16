@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="/DCN/DXR.axd?r=1_23,1_28,1_31,1_29,1_3,0_1561,0_1634,0_1563,0_1636,0_1557,1_10,0_1559-urJCe" /><title>
+	DeWitt County Jail - Inmate Details
+</title><meta charset="utf-8" /><meta name="robots" content="noindex" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet" /><link href="styles/main.css" rel="stylesheet" /><link href="styles/detail.css" rel="stylesheet" /><link href="styles/tooltip.css" rel="stylesheet" /><link href="styles/banner-alert.css" rel="stylesheet" /><style id="ServerStyle" type="text/css">body {
+background:White;
+}
+
+a:link {
+color:#275DFF;
+}
+
+a:visited {
+color:#1C42B5;
+}
+
+#BannerAlert, #BannerAlert:hover, .banner-alert {
+color:#FFFFFF;
+}
+
+.navbar-custom {
+color:#FFFFFF;
+border-color:#196CC8 !important;
+background:#2780E3;
+}
+
+.navbar-custom .navbar-nav > li > a {
+color:#FFFFFF;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+background:#1762B6;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+background:#196CC8;
+}
+
+.navbar-custom .navbar-brand {
+color:#FFFFFF;
+}
+
+.navbar-custom .navbar-toggle {
+background:#2780E3;
+}
+
+.navbar-custom .navbar-toggle:hover {
+background:#388AE5;
+}
+
+.navbar-custom .icon-bar {
+background:#FFFFFF;
+}
+
+.navbar-custom .mode .active {
+border-color:#1559A4;
+background:#1559A4;
+}
+
+.item {
+background:#E2E2E2;
+color:#404040;
+}
+
+.header {
+background:#2780E3;
+color:#FFFFFF;
+}
+
+.app-button {
+color:#FFFFFF;
+background:#1C75D9 !important;
+outline-color:#1C75D9 !important;
+}
+
+.btn-primary {
+color:#FFFFFF;
+background:#2780E3;
+border-color:#2780E3;
+}
+
+.btn-primary:hover {
+background:#1C75D9 !important;
+border-color:#1C75D9 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+color:#FFFFFF !important;
+background:#196CC8 !important;
+border-color:#1559A4 !important;
+outline-color:#1559A4 !important;
+}
+
+.wrapper .tooltip {
+background:#2780E3;
+color:#FFFFFF;
+}
+
+.wrapper .tooltip:after {
+background:#2780E3;
+color:#FFFFFF;
+}
+
+</style>
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/non-index.js"></script>
+</head>
+<body>
+	<nav id="NavBar" class="navbar navbar-custom navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span id="HeaderLabel" class="navbar-brand">DeWitt County Jail - Inmate Details</span>
+			</div>
+			<div class="collapse navbar-collapse" id="bar">
+				<form class="navbar-form navbar-right">
+					<div id="ButtonContainer" class="btn-group" data-toggle="buttons">
+						<button id="HomeIndexButton" class="btn btn-primary">Home</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<form method="post" action="./inmate-details?id=kv006bJKDp0%253d&amp;bid=7MZ46GsTDKM%253d" id="DetailForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Al4Z2jb9J1WwsL+4DKSTvdtmdoBTjci7TjN3/a1sWaNLMRSF76RO+qe2F//EAor5C8aP0CPmIBTzEnoKGSdtUI6nSUquGiLaLol6LFVVpzAO3A2LyGgCrq6mXYQSuiDGxq1Qth0H4BmTQOHdF/2fbvXZCQRGUNOV7eidojOj7eyLeCfWFrH4vqc/Q399IS84wxWjcBBxH3o2RytkuFanN9eyuurNucOrSKKQ0RBjnGleqAXIVjku9rB0GesHETBxp9sPxP4Brwd9A7YtzAtX0vbZp4/3WqeHmQ9vYwqYPompZfsSvZk6l1OgnGFJAh2K+W3NMwyXFWpb3Z1bGAglY8yvqXluh9+7oC9Zh3uVjDAF88qL/sESo1uC3aLopfYMos7w/oc3yq+GiExNFYniXizdN9V0X2cpo+8FCaIAsea/QTq/vl3Do+J+GEjSr1HuPx/twbXsDX3683ZMhuyb7ChtwoIPiUNTo6DNyqh2BBimpOwXOFD2yK2JOI9s5cngwB7qT6Q872YwZuqx3WvxygVpIXa9OOhrWDPDLGQHyvw7zIsMa9SrcyW3fpEdK3rae4bAd/VoiDN+2REALzvBL5MPtu/luNsQT1DCfKNQWKHW1h2lIwKRS+fORSganlxmHlfhhrUqGFqIcVpQiS9wNqFC/REonAYKB4uZtLsz6HJS+uoHJAYV2BTi1trLySM2bSUztCidTrS/9Sm14xxYb3jCMtsdWPR0eJl+BnLr6aKuXEsFSyU92CirszwZ5GOAzijj0Eb8GNEdZDDUvehZZXmLrzfjHXgFx1s0CsGQk10ABfw1AAIwP8FjaH7aBxrkAmuuSuMJVi1CHpL3nwkl/csT7+rblacCsSFYHaUeHH4eeH0+1JHFNsqAq7NumSxRc87q5LIb4Q/UMVLQK5J3CYlRzceM8mQ5k6IPyIU1ayZUECDmd+njAr9kwyyEeXcgympEQXnUseS4+yUJqmnJbP0zLuTayrWvztxmo7mgH6LZX/6E9N/Nb0os9R7R84+v4eGn0MRjlNgMfD7AFbDsnhCQFGg12YjEbn8MBBiV4k+/dA2VX7nLyVjlIdIJDjyH0ectHjhrMa2Qx1SfO7exaHUEcrwSkrcM81snf1HHEWlXJKrxeQTbwTzTsFdnc4CrFqAWBv6rHddZ0ndTV14pT0n76bY5uU5RBXKuLFv0mnMJRuPK68OEXLbh0ffkWOZ5ylK4W5OcoBMHbYsQg2/Asjc/0LSDMarEum571fub+5jhnEZeBGhIjA1FF2LafJJXbcLs/GeVCqa0G7pbkelIl083w3TAkkJv645wCLdAVMMLVecR3X/UHMk9nemH9AoBWHe7Qb6AKVy6r5EmOHcu/JL3KUtDphnsjWoRaiR/+9NbSF8yFAEHPlCphg1YQvhUb053XNKHL75/zQZ76lQaEB0LYp/s9mb3rw+CsK6YccxmrePdDjx6QejXYHmhlF2GVWQf/I5sm/AWFTf/T9jkfg0/3VBbJ9qRoKbtt/OqDG2JjIqRkLcfyShvBotdDYDd7n0fP/m2sd8FfNr0L/2ex8oBiqnNMaLnGTUywN3SS5XcBJfF4h/yJAl3Ei/1T36Lqb139mny4jsYPvLOeE/DU4ktw+TSCtV349r19Pk6/qPEwNMJMQMkFcfNedV6t3ow7ZmIcDT4zZrxu6yPdVxhI/8FgtGfWnQILgcUv0TA5rtKPvJVK0Jf4BCzA5/vCWvoZsr2ck8/2XUzbrESFXflik9jciqHoE8A/eoIpiDu+qwvktp99CAfswBKg5NFs4lzBEN8Ht2K1HzrdZ/QSLZGz4YH5/FhHsshCTHJhwcie+2lF0NMTwj+gAJmkxsE2uZbLTRO3vLfgR6zYFeFbHVDSU7G2f0SI9r9FIU89HnNltbBnmzW7f+kG/oF8gLecWwXsWoxIqTnB6U9uUhNrHVfdY8MVyOpGeDhX7rBEJXFLF7UnJXgX3VL1Mz4DRvUzww6rUMH2HxoqsqtEIR3urpfiXd7goJZUYFCWHjkchqhfL9EdBDXkLCzdJ+tv0zTbCQeE26Y+gnC3bpmbFMHH7ljyPdb2Y7wvNY25FhyatnliC6y4Be8lgcQACFVn8dX8/QFAdnN5fMtDmeRJ9+TnhAwIFNHxljIekjcVR39z9rlsi07TXmC5kSwmr3I0Y53DOn2BaWzV4AZJRMqT2yDvOZdWtG298V2ewuHHQ+tNQK+gDw12+6Ppw486VqzuBJZZTQ9WR6WB4sBAKm6diFeWTCDgplFzPe5jIEJdeaFIbx9cJJVVKxMCjgB8541KMOIgr+Ij5O0gTFEf9/4Ls7Z/ZTu95XBiyQa4hNQGD/7rGoImpHLL47ejPCdo+BF7T3ayIsrhZdwOE2KT+6P2jCBiYUUHwX0vDleDD6mjG4OXCAMxTDc4iZYXpg1oZEOVq4zEdi+fgYcOh9cPIxLykadUWbkM2ObXRZ892tLmAx2ntL5rSLGGIpAgMQnUXF+lLrA3aRbrtDSXXoKViCrH/KADmYkiTMWosFWo+leL2uBdQrRq3eAddG5zhITPHeAonlE11KVc1TW8llAo2MMrzJKRXSu+yl7dQvtJawmzT8jy2Fyb3EyCej74nTNrTJhh5Qn3rY7pEm8YvzrgJlBDvV9yDcfVPCMXgzGL6HUEW2TO80GH/afg7e2/T99k73HEYGLugqP9OJThrXOHF7owJbuWdeTRB2oHS8uSq6+av/UqD7MVI0ZJdHhGgbKmJsht3b0vZUrw3+HP5SGc7J7WzpQj8XnMIWgMkQ+Mf6zFhztpaIISuGMor6Z5dzjFhoT28bg7kvJ9UXRpm85LYpIny8U8KfsJuMbGE/dTgMx0EzYT42284ECB5zdXDTK/YHHBrl5we4O/rPlU9LiGudsY7u0NDjgTFKMMat3lR09OZnzDTHvvkJpSR0CUWJr1c2EkuQkl2woEGQldrjFl7JOB5qPfEwIM6OVBft8RGVLi6RDyKhXVpSXvXWDZ56htPc58Ra4hmGY+6vVR7UL9mfsz8BlvYCBX1yKlV/dmodr5A3uxTn3eUBSOFTpILet1Lr5LVN9++EKJ5K7f+KdgHfFMm1o8m9v3ou3uSqPz7HKjxDgjgHuSFaiQMKjt3T64RCGuj1RKZPlVtarHqqrRhUyCssl6yPlFWkvyC+3iX0YpmjvkTV14hLOhyj25cm2OMZ86sodRB71aSzQ0RFeIZa0FWoGS3yTSila6tWONqP33F/UTbUgSE66ZGMcVnXyBU307Ua5UpuBx8NhxaqNFJVdWQuzaXEe+VOFrfeMdlja8eg0RNp5jkx5V3e+xTN9OMJ3URhZHWCcdcrsZtXDnCYlCiHFudYscEmFhOWsnmxWhW4HSusodR/uRsrmQc3YajY6aDgnQ3mCrpKOhSS8hPKRaJD7vXaxDiTpoEkndu/j+W3K3O9vGg6hOYLO/WuXG0rKopqB195bOzlaulDeQVTRdY7XLbfkS5I7whUVyMztqQBqNwthObZfVdXDdmqNeRJUjRgCVOHsdleDXbmYuVOJwZ/WRUppYcsh2MDdurX3nhgr/fjkB7OjbLIGHUUSHZ4zRRrQ8WL/PvUFGb/fO5EYIyVIuW7Sdq1hcvrvwOViMT1IbWzo1ghqMhKwlxd7bYlex5+M3Dp/LA0IEl04VccOSDEoTwAGaC6EJI03CjAuIjds2lF2RHsLbvl0xTA8NIBJTOEfzlIn4au3VLgcdzzF9QIRbTKLrYM18iblwtynYhMuH/hXgkSvHsmNATaJ5GICPe+yoROMLqKc3w5Pz8digwFzgDm9axC1KxKrjRwsLOlH6grn/TbaCPcDssv1DpxmOrMgb1nU" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['DetailForm'];
+if (!theForm) {
+    theForm = document.DetailForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/DCN/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZLnUJ3Pc4BezvqKoH-wI_RgbkvhqfAbKdvuRyLtOHbKjaPVGxAXBjiAyLMKIlOOryQ2&amp;t=637100614300000000" type="text/javascript"></script>
+
+
+<script src="/DCN/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvq3RtkwXiaG1Nfk98HfxlXfkNMKL5KqZv32rdQ2X5VIBIoPAAB0LGhLuUdrCK19R6xBKWn1s0Kfr7dkTwopBSmB-unxapmUoxnm1SE3rN3JJVBVOuFCfoUXwRC2z0mtJv5x_HEXnfWvVj9NdDmYDkiY1&amp;t=ffffffff9a9577e8" type="text/javascript"></script>
+<script src="/DCN/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OC-F-TSADgnOWEj4gvSM9skx-0kp2-odPGZX10nJ1CVuyDCeGammMmn83KEkOTCqVgR7UxuJkAnk_Wd_qVfVQeOpaPF70zN8GJCwMd5mZrteIaFCJOl7Gzzc3Y5mxjH2h8pyNTBOezkUwgGHtvIfzrI1&amp;t=ffffffff9a9577e8" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="189DAF63" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="o4Ufxs85QgFAGz7Hbpk3Ou03tTE2/LCD2xCCJf+XxjulqhyOlREfsHhxT0iZp1j98LVOtQb76aqZEI18drkS4TeieRD2x+mHBYfh+9XLDrd0up7dlQps15Bge8jrriBbMPxhfO9N4/5noxvKRg+wCw==" />
+</div>
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('scriptManager', 'DetailForm', ['tupInmateDetails',''], [], [], 90, '');
+//]]>
+</script>
+
+		<script id="dxis_1529629214" src="/DCN/DXR.axd?r=1_247,1_138,1_241,1_164,1_174,1_141,1_135,1_233,1_231,1_149,1_201,1_187,1_196,1_190,1_195,1_162,1_170-irJCe" type="text/javascript"></script><div id="ExplanationPopup_PW-1" class="dxpcLite dxpclW" style="width:350px;cursor:default;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow" style="border-width:0px;">
+		<div class="dxpc-header dxpc-withBtn" style="font-weight:bold;cursor:move;padding-left:8px;padding-right:8px;padding-top:8px;padding-bottom:8px;-webkit-user-select:none;">
+			<div class="dxpc-closeBtn">
+				<img src="images/close.png" alt="Close" style="height:14px;width:14px;" />
+			</div><div class="dxpc-headerContent">
+				<span class="dxpc-headerText dx-vam">This inmate cannot be visited because</span>
+			</div><b class="dx-clear"></b>
+		</div><div class="dxpc-contentWrapper">
+			<div class="dxpc-content">
+				
+					<div id="ExplanationPopup_Explanation"></div>
+				
+			</div>
+		</div>
+	</div>
+</div><div id="ExplanationPopup_DXPWMB-1" class="dxpcModalBackLite" style="z-index:9999;">
+
+</div><script id="dxss_1845283595" type="text/javascript">
+<!--
+ASPx.AddHoverItems('ExplanationPopup',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+
+var dxo = new ASPxClientPopupControl('ExplanationPopup');
+dxo.InitGlobalVariable('ExplanationPopup');
+dxo.SetProperties({'popupAnimationType':'fade','allowResize':true,'closeAction':'CloseButton','popupHorizontalAlign':'WindowCenter','popupVerticalAlign':'WindowCenter','isPopupPositionCorrectionOn':false,'allowDragging':true,'width':350,'widthFromServer':true});
+dxo.AfterCreate();
+
+//-->
+</script>
+		<div id="upInmateDetails">
+	
+				<table id="tblDetails" cellspacing="0" cellpadding="10" align="center">
+		<tr class="header">
+			<td colspan="2">
+							<h3 class="header-text">
+								<span id="HeaderText">Carlos Rogelio Chappotin</span>
+							</h3>
+						</td>
+		</tr>
+		<tr>
+			<td class="item graphic_item" align="center">
+							<div class="image_container">
+								
+								<span id="lblMugShot"><a HREF="image-large?id=U0rlAHYf%252bmc%253d&u=2672c2b8-3a7e-451f-8d84-eb1da34e058e" onClick="return popup(this, 'MugShot', '450', '475')"><IMG id="mugShotImg" alt="MugShot" src="image?id=U0rlAHYf%252bmc%253d&u=e319e813-0afe-4a06-8343-e14c63610fd7&m=wtXXvj3tBT4%253d" align="middle" name="mugShotImg" border="0" onError="this.onerror=null;this.src='images/no_mugshot.png';"></a></span>
+								<input type="image" name="imgForward" id="imgForward" title="View next mugshot" class="image_forward" src="images/next.png" />
+							</div>
+							
+							
+							<br />
+							
+						</td>
+			<td class="item" valign="top">
+							<div>
+				<table cellspacing="0" cellpadding="3" rules="rows" id="dvDetail" style="background-color:White;border-color:#F7F7F7;border-width:3px;border-style:Solid;width:100%;border-collapse:collapse;">
+					<tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;white-space:nowrap;">Date of Birth</td><td style="color:#404040;background-color:#E2E2E2;white-space:nowrap;">01-05-1965</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#F7F7F7;font-weight:bold;">Race</td><td style="color:#404040;background-color:#F7F7F7;">H</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;">Sex</td><td style="color:#404040;background-color:#E2E2E2;">M</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#F7F7F7;font-weight:bold;white-space:nowrap;">Eye Color</td><td style="color:#404040;background-color:#F7F7F7;">BRO</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;white-space:nowrap;">Hair Color</td><td style="color:#404040;background-color:#E2E2E2;">BLK</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#F7F7F7;font-weight:bold;">Weight</td><td style="color:#404040;background-color:#F7F7F7;">140</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;">Height</td><td style="color:#404040;background-color:#E2E2E2;">5 09</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#F7F7F7;font-weight:bold;white-space:nowrap;">Admit Date</td><td style="color:#404040;background-color:#F7F7F7;">05-09-2020</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;white-space:nowrap;">Admit Time</td><td style="color:#404040;background-color:#E2E2E2;">11:22 PM</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#F7F7F7;font-weight:bold;">Address</td><td style="color:#404040;background-color:#F7F7F7;white-space:nowrap;">
+											<span id="dvDetail_lblAddress">3280 US Hwy 119N</span>,&nbsp;
+											<span id="dvDetail_lblCity">Cuero</span>&nbsp;
+											<span id="dvDetail_lblState">TX</span>&nbsp;
+											<span id="dvDetail_lblZip">77954</span>
+										</td>
+					</tr><tr>
+						<td style="color:#404040;background-color:#E2E2E2;font-weight:bold;white-space:nowrap;">Confining Agency</td><td style="color:#404040;background-color:#E2E2E2;">DeWitt</td>
+					</tr>
+				</table>
+			</div>
+						</td>
+		</tr>
+		<tr>
+			<td class="item" colspan="2">
+							<table class="dxgvControl_Metropolis dxgv" allowsorting="True" id="ChargeGrid" style="border-collapse:separate;">
+				<tr>
+					<td><div id="ChargeGrid_grouppanel" class="dxgvGroupPanel_Metropolis" oncontextmenu="return ASPx.GVContextMenu(&#39;ChargeGrid&#39;,event);" style="color:#404040;background-color:#E2E2E2;">
+						Drag a column header here to group by that column
+					</div><table id="ChargeGrid_DXMainTable" class="dxgvTable_Metropolis dxgvRBB" onclick="ASPx.GTableClick(&#39;ChargeGrid&#39;, event);" ondblclick="ASPx.GVTableDblClick(&#39;ChargeGrid&#39;, event);" oncontextmenu="return ASPx.GVContextMenu(&#39;ChargeGrid&#39;,event);" style="width:100%;empty-cells:show;">
+						<tr id="ChargeGrid_DXHeadersRow0">
+							<td id="ChargeGrid_col0" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Charge</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col1" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Offense Date</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col2" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Court Type</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col3" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Court Date</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col4" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Bond</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col5" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Bond Type</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col7" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Charging Agency</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td><td id="ChargeGrid_col8" class="dxgvHeader_Metropolis" style="color:#FFFFFF;background-color:#2780E3;border-top-width:0px;border-left-width:0px;border-right-width:0px;"><table style="width:100%;">
+								<tr>
+									<td style="color:#FFFFFF;">Arresting Agency</td><td style="width:1px;text-align:right;"><span class="dx-vam">&nbsp;</span></td>
+								</tr>
+							</table></td>
+						</tr><tr id="ChargeGrid_DXDataRow0" class="dxgvDataRow_Metropolis" style="color:#404040;background-color:#E2E2E2;">
+							<td id="ChargeGrid_tccell0_0" class="dxgv" style="border-left-width:0px;border-right-width:0px;">
+											<a href='/DCN/inmates?s=true&c=8J%252bLWwsAU1arwhMKlCdhHGW0qcd3Pbp8WPTu7OMm%252bgAhvJJN8Otiyg%253d%253d'>
+												AGG ASSAULT DATE/FAMILY/HOUSE W/WEAPON
+											</a>
+										</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">05-09-2020</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">&nbsp;</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">&nbsp;</td><td class="dxgv dx-ar" style="border-left-width:0px;border-right-width:0px;">$150,000.00</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">Surety Bond</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">DeWitt</td><td class="dxgv" style="border-left-width:0px;border-right-width:0px;">DEWITT CO SO CUERO - TX0620000</td>
+						</tr><tr id="ChargeGrid_DXFooterRow" class="dxgvFooter_Metropolis" style="color:#404040;background-color:#E2E2E2;">
+							<td class="dxgv" style="border-bottom-width:0px;">Count=1</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="text-align:Right;border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-right-width:0px;border-bottom-width:0px;">&nbsp;</td>
+						</tr>
+					</table><table id="ChargeGrid_LP" class="dxgvLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+						<tr>
+							<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/DCN/DXR.axd?r=1_35-irJCe" alt="" style="vertical-align:middle;" /></td><td class="dx" style="padding-left:0px;"><span id="ChargeGrid_TL">Loading&hellip;</span></td>
+						</tr>
+					</table><div id="ChargeGrid_LD" class="dxgvLoadingDiv_Metropolis" style="display:none;z-index:29999;position:absolute;">
+
+					</div><img id="ChargeGrid_IADD" class="dxGridView_gvDragAndDropArrowDown_Metropolis" src="/DCN/DXR.axd?r=1_35-irJCe" alt="|" style="position:absolute;visibility:hidden;top:-100px;" /><img id="ChargeGrid_IADU" class="dxGridView_gvDragAndDropArrowUp_Metropolis" src="/DCN/DXR.axd?r=1_35-irJCe" alt="|" style="position:absolute;visibility:hidden;top:-100px;" /><img id="ChargeGrid_IADL" class="dxGridView_gvDragAndDropArrowLeft_Metropolis" src="/DCN/DXR.axd?r=1_35-irJCe" alt="|" style="position:absolute;visibility:hidden;top:-100px;" /><img id="ChargeGrid_IADR" class="dxGridView_gvDragAndDropArrowRight_Metropolis" src="/DCN/DXR.axd?r=1_35-irJCe" alt="|" style="position:absolute;visibility:hidden;top:-100px;" /><img id="ChargeGrid_IDHF" class="dxGridView_gvDragAndDropHideColumn_Metropolis" src="/DCN/DXR.axd?r=1_35-irJCe" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;" /></td>
+				</tr>
+			</table><script id="dxss_1131610631" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientGridView('ChargeGrid');
+dxo.InitGlobalVariable('grid');
+dxo.SetProperties({'callBack':function(arg) { WebForm_DoCallback('ChargeGrid',arg,ASPx.Callback,'ChargeGrid',ASPx.CallbackError,true); },'stateObject':{'selection':'','callbackState':'wzKmx3cGHS315Su6XEz8myEFAoL83FUArVpdJL12/KY1CNsHqeRGtDI7vVdYLGSqU2kqohhUpXePN23c8KgT43KBBuPGxc9Izr/fcIdw4LoiaY1+DCTD/UoMn7Jju5jFSP1XAjlS1uSlQCnmfMG5AbJ09IQPJcxy/xhGfjSNd82qJYCcT8KMFR3TAEqEUm07qGlHJ64E5jTNfALLkJi82/f+7mG01rLGjSfQmylyR7DEVJI2E3XzCw5/eRjnhmH9gpj/AAIio1uRX5LK40a0oxA3u8/jZlzc5XlZlMJ7JI0aYPUsVe9Ug7Xtd0kY1TV78w7mhFGSW+Z7ZShmL15ojBo/0D0oyzq6sQsP8XpdqTWSi/BkpIhHcjDu3wsse8FMl0eu7gCgqQqhY9JYEiElUTFO0/Z3UPuLYepkAX7LccmPF8W8pIWcIfVqM5Z/j/H+XaDcbLO7/RpuTpyZGQPhxnEAcHTq9ChsXXhi17JcQOEQov7JJRdwlgGaLFzjUm2eZydNa20DxuFXaQFfQMpr8xVPZ/kZ9+kMSvf8Sx+o9HHLsYwhlqMxdSF79KV2RgI7safZsEqT6qrkcxSomiYpquLuLr5071CLi+zUrTqOATOCZ3mvF9FoFF3AW9KkPuNvdpNTzOgE1S65xmRrPyZ7z2FVl32zKv9e+k/hrc8qKFDk///FyueHdHgU65ysMi3neFb4jHLxQl/UspTZpVwglx/THkS/jyGTu4u8NH2XWNSE6CV9rptwEw6KY/vCtPmv7QEPiBiR43PpafeNsqOVj/TIHQPIewJ9tt+w+DI0t4Q/KR8KzjKZXfiTa28I/6SWl2t5QMIFZ1/DGotuIm2FBTnX/4L/9S5enDcdsAEyIguig9SoSIYcKPEKhFtANNJDpBNICVR6dxgiPPlRKlXUpCIvDGDcN1DdM3dM00omA5NfFxpkyd0i3zeHy0AfUpBq','keys':[]},'callBacksEnabled':true,'pageRowCount':1,'pageRowSize':10,'pageIndex':-1,'pageCount':1,'selectedWithoutPageRowCount':0,'visibleStartIndex':0,'focusedRowIndex':-1,'allowFocusedRow':false,'allowSelectByItemClick':false,'allowSelectSingleRowOnly':false,'callbackOnFocusedRowChanged':false,'callbackOnSelectionChanged':false,'editState':0,'editItemVisibleIndex':-1,'searchPanelFilter':'','allowDelete':true,'allowEdit':true,'allowInsert':true,'columnProp':[[0,,,'ChargeDescription',,,0],[1,,,'OffenseDate',,1,1],[2,,,'CourtType',,,2],[3,,,'CourtDate',,1,3],[4,,,'BondAmount',,,4],[5,,,'BondType',,,5],[6,0,,'PenaltyModifier',,,,,,,,,,,1],[7,,,'ChargingAgency',,,6],[8,,,'ArrestAgency',,,7]],'editMode':2,'indentColumnCount':0,'allowChangeColumnHierarchy':false,'allowMultiColumnAutoFilter':false});
+dxo.AfterCreate();
+
+//-->
+</script><script id="dxss_1154233573" type="text/javascript">
+<!--
+ASPxClientGridBase.PostponeInitialize('ChargeGrid',({'styleInfo':{'sel':{'css':'dxgvSelectedRow_Metropolis'},'fi':{'css':'dxgvFocusedRow_Metropolis'},'ei':'<tr class="dxgvEditingErrorRow_Metropolis">\r\n\t<td class="dxgv" data-colSpan="8" style="border-right-width:0px;"></td>\r\n</tr>','fc':{'css':'dxgvFocusedCell_Metropolis'},'bec':{'css':'dxgvBatchEditCell_Metropolis dxgv'},'bemc':{'css':'dxgvBatchEditModifiedCell_Metropolis dxgv'},'bemergmc':{'css':'dxgvBatchEditModifiedCell_Metropolis dxgvBatchEditCell_Metropolis dxgv'},'bedi':{'css':'dxgvBatchEditDeletedItem_Metropolis dxgv'},'fgi':{'css':'dxgvFocusedGroupRow_Metropolis'}},'commandButtonIDs':[]}))
+//-->
+</script>
+						</td>
+		</tr>
+	</table>
+	
+			
+</div>
+	 
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();//]]>
+</script>
+</form>
+</body>
+</html>
